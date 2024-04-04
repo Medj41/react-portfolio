@@ -11,10 +11,10 @@ export default function Footer() {
     <>
       <footer>
         <div className="container-fluid bgNavFoot  " >
-          <div className="row text-center text-white d-flex justify-content-center pt-4">
+          <div className="row text-center  d-flex justify-content-center pt-4">
             <div className="col-md-2">
               <h6 className="text-uppercase font-weight-bold">
-                <a href="#work" className=" text hover-shadow">
+                <a href="#work" className=" text hover-shadow text-white">
                   Work
                 </a>
               </h6>
@@ -22,7 +22,7 @@ export default function Footer() {
 
             <div className="col-md-2">
               <h6 className="text-uppercase font-weight-bold">
-                <a href="#skills" className="text hover-shadow">
+                <a href="#skills" className="text hover-shadow text-white">
                   Skills
                 </a>
               </h6>
@@ -30,7 +30,7 @@ export default function Footer() {
 
             <div className="col-md-2">
               <h6 className="text-uppercase font-weight-bold">
-                <a href="#about" className="text hover-shadow">
+                <a href="#about" className="text hover-shadow text-white">
                   About
                 </a>
               </h6>
@@ -38,7 +38,7 @@ export default function Footer() {
 
             <div className="col-md-2">
               <h6 className="text-uppercase font-weight-bold">
-                <a href="#contact" className="text hover-shadow">
+                <a href="#contact" className="text hover-shadow text-white">
                   Contact
                 </a>
               </h6>
@@ -54,7 +54,7 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="ps-2"
                   >
-                    <FaFacebook className=" text" />
+                    <FaFacebook className=" text  fs-2 icones-footer" />
                   </a>
 
                   <a
@@ -63,7 +63,7 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="ps-2"
                   >
-                    <FaInstagram className=" text  hover:text-red-600" />
+                    <FaInstagram className=" text icones-footer fs-2  hover:text-red-600" />
                   </a>
 
                   <a
@@ -72,7 +72,7 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="ps-2"
                   >
-                    <FaXTwitter className=" text  hover:text-blue-600" />
+                    <FaXTwitter className=" text icones-footer fs-2 hover:text-blue-600" />
                   </a>
 
                   <a
@@ -81,7 +81,7 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="ps-2"
                   >
-                    <FaWhatsapp className=" text  hover:text-green-600" />
+                    <FaWhatsapp className=" text icones-footer fs-2  hover:text-green-600" />
                   </a>
                 </div>
               </div>
