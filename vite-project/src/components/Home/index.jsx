@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <div className="container mt-3">
-        <div className="p-5 mb-4 bg-light rounded-3">
+        <div className="p-5 mb-4 bg-light rounded-3" id="about">
           <div className="container-fluid py-5">
             <h1 className="display-5 fw-bold">Hey, I'm Mohamed!</h1>
             <div className="row mb-2">
@@ -50,7 +50,7 @@ export default function Home() {
       </div>
 
       <div className="container mt-3">
-        <div className="p-5 mb-4 bg-light rounded-3 py-0">
+        <div className="p-5 mb-4 bg-light rounded-3 py-0" id="skills">
           <div className="container-fluid py-5">
             <h1 className="display-5 fw-bold text-center mb-5">My skills </h1>
 
@@ -96,13 +96,16 @@ export default function Home() {
                     This is a project that has helped me understand
                     accessibility standards while using GIT, HTML & CSS.
                   </p>
+                  <a href="https://github.com/Medj41/Accessibilty_Challenge">
+                    Git-Hub
+                  </a>
                 </div>
               </div>
             </div>
             <div className="col">
               <div className="card">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/smartgadget-369ae.appspot.com/o/gamingPC.jpg?alt=media&token=15364b6d-3a9c-448a-ac6d-bcb3a6647284"
+                  src="https://firebasestorage.googleapis.com/v0/b/smartgadget-369ae.appspot.com/o/unnamed.jpg?alt=media&token=0c9b0e43-6ea9-4709-9514-7238f0ecd451"
                   className="card-img-top pichieght"
                   alt="An image of Algiers"
                 />
@@ -114,6 +117,9 @@ export default function Home() {
                     One of my very first projects using HTML & CSS to advertise
                     the hidden beauties of my country Algeria.
                   </p>
+                  <a href="https://medj41.github.io/Home-Algeria/">
+                    Git-Hub
+                  </a>
                 </div>
               </div>
             </div>
@@ -128,9 +134,10 @@ export default function Home() {
                     Weather Dashboard
                   </a>
                   <p className="card-text">
-                    This is a project that has helped me understand
-                    accessibility standards while using GIT, HTML & CSS.
-                  </p>
+                  A weather dashboard shows current and forecasted conditions: temperature, precipitation, wind speed, and other meteorological data for easy access.                  </p>
+                  <a href="https://github.com/Medj41/weather-dashboard">
+                    Git-Hub
+                  </a>
                 </div>
               </div>
             </div>
@@ -141,12 +148,14 @@ export default function Home() {
                   className="card-img-top pichieght "
                   alt="UX Design"
                 />
-                <div className="card-body">
-                  <a href="https://medj41.github.io/weather-dashboard/">Quiz</a>
+                <div className="card-body h-100">
+                  <a href="https://medj41.github.io/Quiz-challenge-APIs/">Quiz</a>
                   <p className="card-text h-100">
-                    An upcoming project that I'm looking very forward to in
-                    order to develop my UX skills.
+                  This application is designed to test your coding knowledge through a timed quiz with multiple-choice questions
                   </p>
+                  <a href="https://github.com/Medj41/Quiz-challenge-APIs">
+                    Git-Hub
+                  </a>
                 </div>
               </div>
             </div>
@@ -157,13 +166,17 @@ export default function Home() {
                   className="card-img-top pichieght"
                 />
                 <div className="card-body h-100">
-                  <a href="https://medj41.github.io/Accessibilty_Challenge/">
+                  <a href="https://rootgeorge17.github.io/Movie-Quest/">
                     Movie-Quest
                   </a>
                   <p className="card-text">
-                    This is a project that has helped me understand
-                    accessibility standards while using GIT, HTML & CSS.
+                  
+Introducing Movie-Quest: Easily search for movies and explore details like cast, release dates, ratings, and watch trailers—all in one place.
+                    
                   </p>
+                  <a href="https://github.com/RootGeorge17/Movie-Quest">
+                    Git-Hub
+                  </a>
                 </div>
               </div>
             </div>
@@ -174,13 +187,15 @@ export default function Home() {
                   className="card-img-top pichieght"
                 />
                 <div className="card-body h-100">
-                  <a href="https://medj41.github.io/Accessibilty_Challenge/">
+                  <a href="https://smart-gadget123.netlify.app">
                     Smart Gadget
                   </a>
                   <p className="card-text">
-                    This is a project that has helped me understand
-                    accessibility standards while using GIT, HTML & CSS.
+                  Smart Gadget App: Your ultimate ecommerce destination for the latest tech, from smartphones to gaming consoles, offering a seamless shopping experience.
                   </p>
+                  <a href="hhttps://github.com/SKhail/smart-gadget">
+                    Git-Hub
+                  </a>
                 </div>
               </div>
             </div>
@@ -191,13 +206,15 @@ export default function Home() {
                   className="card-img-top pichieght"
                 />
                 <div className="card-body h-100">
-                  <a href="https://medj41.github.io/Accessibilty_Challenge/">
+                  <a href="https://medj41.github.io/team-profile-generator/">
                     Team-Profile-Generator
                   </a>
                   <p className="card-text">
-                    This is a project that has helped me understand
-                    accessibility standards while using GIT, HTML & CSS.
+                  This App aim to create a webpage showcasing my team's essential information, enabling users to easily access their emails and GitHub profiles.
                   </p>
+                  <a href="https://github.com/Medj41/team-profile-generator">
+                    Git-Hub
+                  </a>
                 </div>
               </div>
             </div>
@@ -208,13 +225,15 @@ export default function Home() {
                   className="card-img-top pichieght"
                 />
                 <div className="card-body h-100">
-                  <a href="https://medj41.github.io/Accessibilty_Challenge/">
+                  <a href="https://medj41.github.io/password-generator-/">
                     Password Generator
                   </a>
                   <p className="card-text">
-                    This is a project that has helped me understand
-                    accessibility standards while using GIT, HTML & CSS.
+                  The application generates random passwords based on selected criteria, running in the browser with dynamically updated HTML, CSS, and JavaScript code.
                   </p>
+                  <a href="https://github.com/Medj41/password-generator-">
+                    Git-Hub
+                  </a>
                 </div>
               </div>
             </div>
